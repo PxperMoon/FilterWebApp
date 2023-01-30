@@ -1,0 +1,38 @@
+#heading {
+    color: black;
+    font-variant: small-caps;
+}
+
+#button {
+    color: black;
+    font-variant: small-caps;
+}
+
+body {
+    color: black;
+    font-variant: small-caps;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+canvas {
+    border-width: 7px;
+    border-color: white;
+    
+}
+
+canvas 
+{
+animation-name: animation;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+border:rgb(255, 255, 255);
+border-width: 7px;
+}
+
+@keyframes animation 
+{ 
+from{box-shadow: 1px 1px 38px rgb(255, 255, 255);}
+to{box-shadow: 1px 1px 38px rgb(255, 255, 255);}
+}
